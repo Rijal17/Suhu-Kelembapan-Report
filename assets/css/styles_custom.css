@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#card{
+    font-family: 'Ubuntu','sans-serif';
+    background-color: #e1f2f5;
+    padding: 20px 0px;
+    
+}
+
+#card h1{
+    
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 5px;
+}
+
+.title{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.card{
+    border-radius: 0px 0px 15px 15px;
+    margin: 20px 10px;
+}
+/* 
+.card .text-center{
+    border-radius: 15px;
+} */
+
+.card-body a{
+    color: #1a5157;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.card-body a:hover{
+    color: #4fd3e2;
+    text-decoration: none;
+}
+#card h1:hover {
+    color: rgb(255, 255, 255);
+}
+
+.card-img-top{
+    width: auto;
+    height: 150px;
+    transition: transform .5s ease;
+    object-fit: cover;
+    /* width: 100%; */
+    max-width: 500px;
+    /* height: 300px; */
+}
+
+.card-img-top:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="card"] {
+        width: 100%;
+    }
+}
+
+
+
